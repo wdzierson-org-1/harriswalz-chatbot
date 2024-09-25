@@ -36,24 +36,24 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What are the',
-      subheading: 'trending memecoins today?',
-      message: `What are the trending memecoins today?`
+      heading: 'What is the',
+      subheading: 'Harris/Walz vision for the future?',
+      message: `What is the Harris/Walz vision for the future?`
     },
     {
-      heading: 'What is the price of',
-      subheading: '$DOGE right now?',
-      message: 'What is the price of $DOGE right now?'
+      heading: 'How will they',
+      subheading: 'lower costs for families?',
+      message: 'How will the Harris/Walz campaign lower costs for families?'
     },
     {
-      heading: 'I would like to buy',
-      subheading: '42 $DOGE',
-      message: `I would like to buy 42 $DOGE`
+      heading: 'Tell me about',
+      subheading: 'their plans for healthcare reform',
+      message: `Tell me about the Harris/Walz plans for healthcare reform.`
     },
     {
-      heading: 'What are some',
-      subheading: `recent events about $DOGE?`,
-      message: `What are some recent events about $DOGE?`
+      heading: 'What are their',
+      subheading: 'economic policies for small businesses?',
+      message: `What are their economic policies for small businesses?`
     }
   ]
 

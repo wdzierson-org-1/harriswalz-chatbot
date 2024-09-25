@@ -12,16 +12,16 @@ export const metadata = {
   metadataBase: process.env.VERCEL_URL
     ? new URL(`https://${process.env.VERCEL_URL}`)
     : undefined,
-  title: {
-    default: 'Next.js AI Chatbot',
-    template: `%s - Next.js AI Chatbot`
-  },
-  description: 'An AI-powered chatbot template built with Next.js and Vercel.',
-  icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png'
-  }
+    title: {
+      default: 'Harris/Walz Campaign AI Chatbot',
+      template: `%s - Chat`
+    },
+    description: 'An AI-powered chatbot focused on the Harris/Walz Democratic presidential campaign, providing insights into their policies and vision for the future of America.',
+    icons: {
+      icon: '/favicon.ico',
+      shortcut: '/favicon-16x16.png',
+      apple: '/apple-touch-icon.png'
+    }
 }
 
 export const viewport = {
@@ -48,7 +48,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <Toaster position="top-center" />
         <Providers
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="light"  // Set default theme to light
           enableSystem
           disableTransitionOnChange
         >
