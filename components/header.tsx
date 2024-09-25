@@ -52,7 +52,7 @@ async function UserOrLogin() {
           //   <Link href="/login">Login</Link>
           // </Button>
           <div>
-            Harris/Walz Issues AI Chatbot
+            Harris/Walz Campaign Issues Chatbot
           </div>
         )}
       </div>
